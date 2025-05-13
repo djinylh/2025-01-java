@@ -16,7 +16,7 @@ public class Mssion04
         if (score <= 0 ) {
             System.out.println("측정불가");
         }
-        else if (score <= 70) {
+        else if (score < 70) {
 
             System.out.println("D 학점"); }
 
