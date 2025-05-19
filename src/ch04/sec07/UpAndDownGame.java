@@ -12,9 +12,10 @@ public class UpAndDownGame {
 
         while(true){
             int num = scanner.nextInt();
-            if (answer ==num){
+            if (answer == num){
                 run = false;
                 System.out.println("정답!");
+                break; // break를 감싸고 있는 반복문에서 멈춘다.
             } else if (answer < num){
                 System.out.println(" Down! ");
             } else {
